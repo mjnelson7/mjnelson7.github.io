@@ -1,0 +1,68 @@
+h1 {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:30px;
+	font-weight:bold;
+	margin:0;
+	padding:0;
+	}
+
+h2 {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:24px;
+	font-weight:bold;
+	margin:0;
+	padding:0;
+  margin-bottom:18px;
+	}
+
+body {
+  	font-family:Verdana, Arial, Helvetica, sans-serif;
+   }
+
+a:link {color:#666666;}
+a:visited {color:#505050;}
+a:hover {color:#999999;text-decoration: none;}
+a:active {color:#A0A0A0;}
+
+
+hr.top {
+	border:none;
+	border-top:10px solid #CCCCCC;
+	height:1px;
+	margin-bottom:25px;
+	}
+
+ul.vert-one{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	display:block;
+	font:bold 16px Helvetica, Verdana, Arial, sans-serif;
+	line-height:165%;
+	width:145px;
+	}
+
+ul.vert-one li{
+	margin:0;
+	padding:0;
+	border-top:1px solid #999999;
+	border-bottom:1px solid #999999;
+	}
+
+ul.vert-one li a{
+	display:block;
+	text-decoration:none;
+	color:#fff;
+	background:#666666;
+	padding:0 0 0 20px;
+	width:125px;
+	}
+
+ul.vert-one li a:hover{
+	background:#999999 url("vert-one_arrow.gif") no-repeat 0 9px;
+	}
+
+ul.vert-one li a.current,ul.vert-one li a.current:hover{
+	background:#000000 url("vert-one_arrow.gif") no-repeat 0 9px;
+	}
+
