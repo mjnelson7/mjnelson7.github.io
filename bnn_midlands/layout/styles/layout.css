@@ -47,11 +47,11 @@ img{margin:0; padding:0; border:0;}
 #head ul{margin:0; padding:0; list-style:none;}
 #head li{display:inline;}
 #logo{display:block; float:left; margin-top:20px; width:600px; height:100px; font-family:Georgia, "Times New Roman", Times, serif}
-#logo h1{margin:0; padding:0; font-weight:normal; font-size:56px;}
+#logo h1{margin:0; padding:0; font-weight:normal; font-size:48px;}
 #logo h1 a{color:#660000; background-color:#FFFFFF; cursor:pointer;}
 #logo h1 a strong{display:block; float:left; color:#FFFFFF; background-color:#660000; font-weight:normal;}
-#logo h1 a strong span{font-size:72px;}
-#logo h1 a span{display:block; float:left; margin-top:25px; color:#660000; background-color:#FFFFFF; font-weight:normal;}
+#logo h1 a strong span{font-size:48px;}
+#logo h1 a span{display:block; float:left; margin-top:35px; color:#660000; background-color:#FFFFFF; font-weight:normal;}
 #logo h1 a strong span{display:inline; float:none; color:#FFFFFF; background-color:#660000;}
 #social{display:block; float:right; margin-top:10px;}
 #social li{margin-right:15px; cursor:pointer;}
