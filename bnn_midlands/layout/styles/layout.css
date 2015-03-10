@@ -8,13 +8,13 @@ Licence URI: http://www.os-templates.com/template-terms
 File: Layout CSS
 */
 
-@import url("homepage.css");
+/* @import url("homepage.css"); */
 @import url("navi.css");
 @import url("forms.css");
 @import url("tables.css");
 
 html{overflow-y:scroll;}
-body{margin:0; padding:0; font-size:13px; font-family:verdana, Arial, Helvetica, sans-serif; color:#666666; background-color:#FFFFFF;}
+body{margin:0; padding:0; font-size:13px; font-family:Arial, Helvetica, sans-serif; color:#666666; background-color:#FFFFFF;}
 
 .justify{text-align:justify;}
 .bold{font-weight:bold;}
@@ -39,31 +39,64 @@ img{margin:0; padding:0; border:0;}
 
 #container{position:relative; width:960px; margin:0 auto; text-align:left;}
 
+
+
 /* ----------------------------------------------Head------------------------------------- */
 
-#head{display:block; width:960px; height:110px; margin-bottom:40px; border-bottom:1px dashed #666666;}
-#head a{color:#660000; background-color:#FFFFFF;}
+#head{display:block; width:960px; height:110px; margin-bottom:15px}
+#head a{color:#000066; background-color:#FFFFFF;}
 #head .last{margin-right:0;}
 #head ul{margin:0; padding:0; list-style:none;}
 #head li{display:inline;}
-#logo{display:block; float:left; margin-top:20px; width:600px; height:100px; font-family:Georgia, "Times New Roman", Times, serif}
-#logo h1{margin:0; padding:0; font-weight:normal; font-size:48px;}
+#head i{font-size:24px; color:#000066}
+#logo{display:block; float:left; margin-top:0px; margin-bottom:10px; width:960px; background-color:#000066; font-family:Arial, sans-serif; padding:5px}
+#logo span{background-color:#000066; font-size:18px; width:960px; color:#FFFFFF }
+#logo h1{margin:0; padding:0; font-weight:normal;color:#FFFFFF;font-size:12px}
 #logo h1 a{color:#660000; background-color:#FFFFFF; cursor:pointer;}
-#logo h1 a strong{display:block; float:left; color:#FFFFFF; background-color:#660000; font-weight:normal;}
+#logo h1 strong{display:block; float:left; color:#FFFFFF; font-weight:normal;}
 #logo h1 a strong span{font-size:48px;}
 #logo h1 a span{display:block; float:left; margin-top:35px; color:#660000; background-color:#FFFFFF; font-weight:normal;}
-#logo h1 a strong span{display:inline; float:none; color:#FFFFFF; background-color:#660000;}
+#logo h1 a strong span{display:inline; float:none; color:#FFFFFF; background-color:#000066;}
 #social{display:block; float:right; margin-top:10px;}
 #social li{margin-right:15px; cursor:pointer;}
-#quicklinks{position:absolute; top:74px; right:0; color:#660000; background-color:#FFFFFF; font-size:13px; font-family:Verdana, Arial, Helvetica, sans-serif;}
-#quicklinks li{display:inline; margin-right:8px; padding-right:10px; border-right:1px solid #CCCCCC;}
+#quicklinks{position:absolute; top:100px; right:0; color:#000066; background-color:#FFFFFF; font-size:16px; font-family:Arial, sans-serif;}
+#quicklinks li{display:inline; margin-right:8px; padding-right:10px; border-right:1px solid #0000}
 #quicklinks li.last{margin-right:0; padding-right:0; border-right:none;}
 
 /* ----------------------------------------------Wrapper------------------------------------- */
 
 #wrapper{display:block; width:960px; margin-bottom:40px; line-height:1.6em;}
-#wrapper h1, #wrapper h2, #wrapper h3, #wrapper h4, #wrapper h5, #wrapper h6{margin:0 0 15px 0; padding:0 0 8px 0; line-height:normal; font-weight:normal; font-size:20px; font-family:Georgia, "Times New Roman", Times, serif; border-bottom:1px dashed #CCCCCC;}
-#wrapper a{color:#660000; background-color:#FFFFFF;}
+#wrapper h1, #wrapper h2, #wrapper h3, #wrapper h4, #wrapper h5, #wrapper h6{margin:0 0 15px 0; padding:0 0 8px 0; line-height:normal; font-weight:normal; font-size:20px; font-family:Arial, sans-serif; border-bottom:1px dashed #CCCCCC;}
+#wrapper a{color:#000066; background-color:#FFFFFF;}
+
+
+/* ----------------------------------------------Wrapper------------------------------------- */
+#wrapper #introbox{display:block; width:640px; height:274px; margin-bottom:40px; text-align:right; font-family:Georgia, "Times New Roman", Times, serif;}
+#wrapper #introbox div{display:block; float:left; height:274px; font-size:300px; line-height:0.8em; color:#E2E2E2; background-color:#FFFFFF;}
+#wrapper #introbox h2, #introbox p{margin:0 10px 0 0; padding:0; font-weight:normal; line-height:1em;}
+#wrapper #introbox h2{padding-top:65px; font-size:33px; color:#000000; background-color:#FFFFFF;}
+#wrapper #introbox p{margin-top:40px; font-size:22px; color:#666666; background-color:#FFFFFF; line-height:2em;}
+
+/* ----------------------------------------------Middle Content Block------------------------------------- */
+
+#wrapper .homecontent{display:block; width:640px; margin:0 0 40px 0; padding:0;}
+#wrapper .homecontent ul{margin:0; padding:0; list-style:none;}
+#wrapper .homecontent li{display:block; float:left; width:300px; margin:0 40px 0 0; padding:0;}
+#wrapper .homecontent li.last{margin-right:0;}
+#wrapper .homecontent li p.imgholder{display:block; width:286px; height:100px; margin:0 0 15px 0; padding:6px; color:#666666; background-color:#F7F7F7; border:1px solid #CCCCCC;}
+
+/* Type 1 */
+
+#wrapper .homecontent li h2{margin:0; padding:0 0 8px 0; font-size:24px; font-weight:bold; color:#FFFFFF; background-color:#000066; line-height:normal; text-align:center}
+#wrapper .homecontent li h3{margin:0; padding:0 0 8px 0; font-size:24px; font-weight:bold; color:#000066; line-height:normal; text-align:center}
+
+/* Type 2 */
+
+#wrapper .homecontent li h2.title{display:block; width:100%; height:65px; margin:0; padding:15px 0 8px 0; font-size:20px; font-weight:normal; color:#666666; background-color:#FFFFFF; line-height:normal; border-bottom:1px dashed #CCCCCC;}
+#wrapper .homecontent li h2.title img{float:left; margin:-15px 8px 0 0; padding:5px; color:#666666; background-color:#F7F7F7; border:1px solid #CCCCCC;}
+#wrapper .homecontent p.readmore, #wrapper .homecontent p.readmore2{display:block; width:290px; padding:5px; text-align:right; line-height:normal;}
+#wrapper .homecontent p.read
+
 
 /* ----------------------------------------------BreadCrumb------------------------------------- */
 
@@ -75,6 +108,10 @@ img{margin:0; padding:0; border:0;}
 /* ----------------------------------------------Content------------------------------------- */
 
 #content{display:block; float:left; width:640px;}
+#content h1{font-weight:bold; font-size:24px; text-align:center}
+
+
+
 
 /* Comments */
 
@@ -94,9 +131,9 @@ img{margin:0; padding:0; border:0;}
 /* ----------------------------------------------Right Block------------------------------------- */
 
 #rightblock{display:block; float:right; width:250px;}
-.holder{display:block; width:230px; margin:40px 0 0 0; padding:15px 10px; color:#666666; background-color:#F7F7F7;}
+.holder{display:block; width:230px; margin:40px 0 0 0; padding:15px 10px; color:#000066; background-color:#F7F7F7;}
 #rightblock .last{margin-bottom:0;}
-#rightblock .holder h2{margin:0; padding:0 0 8px 0; font-size:13px; font-weight:bold; color:#333333; background-color:#F7F7F7; line-height:normal; border-bottom:1px dashed #CCCCCC;}
+#rightblock .holder h2{margin:0; padding:0 0 8px 0; font-size:13px; font-weight:bold; color:#000066; background-color:#F7F7F7; line-height:normal; border-bottom:1px dashed #CCCCCC;}
 #rightblock .holder p{margin:15px 0; padding:0;}
 #rightblock .holder a{color:#660000; background-color:#F7F7F7;}
 #rightblock .holder .readmore{display:block; font-weight:bold; line-height:normal; width:100%; text-align:right;}
