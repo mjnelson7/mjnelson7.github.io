@@ -66,8 +66,9 @@ img{margin:0; padding:0; border:0;}
 /* ----------------------------------------------Wrapper------------------------------------- */
 
 #wrapper{display:block; width:960px; margin-bottom:40px; line-height:1.6em;}
-#wrapper h1, #wrapper h2, #wrapper h3, #wrapper h4, #wrapper h5, #wrapper h6{margin:0 0 15px 0; padding:0 0 8px 0; line-height:normal; font-weight:normal; font-size:20px; font-family:Arial, sans-serif; border-bottom:1px dashed #CCCCCC;}
-#wrapper a{color:#000066; background-color:#FFFFFF;}
+#wrapper h1, #wrapper h3, #wrapper h4, #wrapper h5, #wrapper h6{margin:0 0 15px 0; padding:0 0 8px 0; line-height:normal; font-weight:normal; font-size:20px; font-family:Arial, sans-serif;border-bottom:1px dashed #CCCCCC;}
+#wrapper h2{margin:0 0 15px 0; padding:0 0 8px 0; line-height:normal; font-weight:normal; font-size:20px; font-family:Arial, sans-serif;}
+#wrapper a{color:#000066; background-color:#FFFFFF;}   
 
 
 /* ----------------------------------------------Wrapper------------------------------------- */
