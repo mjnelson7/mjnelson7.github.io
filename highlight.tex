@@ -1,0 +1,44 @@
+\documentclass[12pt]{article}
+\usepackage[english]{babel}
+
+
+\usepackage{xcolor,soul}
+\newcommand{\hlg}[1]{{\sethlcolor{lime}\hl{#1}}}
+\newcommand{\hlp}[1]{{\sethlcolor{pink}\hl{#1}}}
+\newcommand{\hlb}[1]{{\sethlcolor{cyan}\hl{#1}}}
+\newcommand{\hlgr}[1]{{\sethlcolor{lightgray}\hl{#1}}}
+\newcommand{\hlo}[1]{{\sethlcolor{orange}\hl{#1}}}
+
+\begin{document}
+
+\vspace*{0.2cm}
+
+\vskip 10pt
+\begin{center}
+
+
+{\Large Fun with Highlighting!}
+
+\vspace{.8in}
+
+\end{center}
+\hl{Lorem ipsum dolor sit amet, consectetur adipiscing elit}, \hlg{sed do eiusmod tempor incididunt ut labore et dolore magna aliqua}. \hlo{Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.} \hlp{Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.} \hlb{Excepteur sint occaecat cupidatat non proident,} \hlgr{sunt in culpa qui officia deserunt mollit anim id est laborum.} \\
+
+\noindent \hl{\textbackslash hl\{xxx\} $=$ yellow}\\
+\hlg{\textbackslash hlg\{xxx\} $=$ green}\\
+\hlo{\textbackslash hlo\{xxx\} $=$ orange}\\
+\hlp{\textbackslash hlp\{xxx\} $=$ pink}\\
+\hlb{\textbackslash hlb\{xxx\} $=$ blue}\\
+\hlgr{\textbackslash hlgr\{xxx\} $=$ gray}\\
+\vspace{.5in}\\
+\textbf{In preamble:}
+\begin{verbatim}
+\usepackage{xcolor,soul}
+\newcommand{\hlg}[1]{{\sethlcolor{lime}\hl{#1}}}
+\newcommand{\hlp}[1]{{\sethlcolor{pink}\hl{#1}}}
+\newcommand{\hlb}[1]{{\sethlcolor{cyan}\hl{#1}}}
+\newcommand{\hlgr}[1]{{\sethlcolor{lightgray}\hl{#1}}}
+\newcommand{\hlo}[1]{{\sethlcolor{orange}\hl{#1}}}
+\end{verbatim}
+
+\end{document}
